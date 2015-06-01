@@ -205,7 +205,7 @@ body {
   overflow-x: hidden;
 }
 a {
-  color: #39c8e2;
+  color: #5ABFE3;
   text-decoration: none !important;
   -webkit-transition: color 200ms ease-in-out;
   -moz-transition: color 200ms ease-in-out;
@@ -235,7 +235,7 @@ input.main-button,
   text-transform: uppercase;
   padding: 10px 15px;
   color: #ffffff;
-  background-color: #39c8e2;
+  background-color: #5ABFE3;
   outline: 0;
   border: 0;
   -webkit-border-radius: 3px;
@@ -299,7 +299,7 @@ ul.social-top li a i {
   margin-right: 10px;
   width: 20px;
   height: 20px;
-  border: 1px solid #39c8e2;
+  border: 1px solid #5ABFE3;
   -webkit-border-radius: 50%;
   -webkit-background-clip: padding-box;
   -moz-border-radius: 50%;
@@ -332,7 +332,8 @@ ul.social-top li a i {
 }
 #responsive-menu ul li a {
   padding: 12px 18px;
-  background-color: #39c8e2;
+  background-color: #5ABFE3;
+    /*background-color: #39 c8 e2;*/
   color: #fff;
   display: block;
   -webkit-border-radius: 4px;
@@ -348,7 +349,7 @@ ul.social-top li a i {
 }
 a#mobile_menu {
   font-size: 24px;
-  background-color: #39c8e2;
+  background-color: #5ABFE3;
   color: #ffffff;
   width: 50px;
   height: 50px;
@@ -363,7 +364,7 @@ a#mobile_menu {
   padding-top: 20px;
 }
 .top-c {
-  background: url(../images/slider-bg3.png) no-repeat top center;
+  background: url(../images/slider-bg4.png) no-repeat top center;
   background-size: cover;
   width: 100%;
   height: 564px;
@@ -397,22 +398,33 @@ a#mobile_menu {
   font-weight: 700;
   margin: 110px 0 30px 0;
 }
+
+#documents{
+    padding-top: 0;
+    padding-bottom: 80px;
+    margin-top: 0;
+}
+#documents .contact-title {
+    color: #777777;
+}
+
 #tariffs {
   background: url(../images/service-bg6.png) no-repeat top center;
   background-size: cover;
   padding-top: 80px;
-  padding-bottom: 0;
+  padding-bottom: 80px;
   position: relative;
   z-index: 10;
-  margin-top: 20px;
+  margin-top: 0;
+    margin-bottom: 0;
 }
 #tariffs .service-item .service-icon {
   width: 136px;
   height: 136px;
   line-height: 136px;
   text-align: center;
-  color: #39c8e2;
-  border: 2px solid #39c8e2;
+  color: #5ABFE3;
+  border: 2px solid #5ABFE3;
   -webkit-border-radius: 50%;
   -webkit-background-clip: padding-box;
   -moz-border-radius: 50%;
@@ -444,7 +456,7 @@ a#mobile_menu {
 #tariffs .tariffs-title {
   /*text-transform: uppercase;*/
   font-size: 32px;
-  color: #39c8e2;
+  color: #5ABFE3;
   font-weight: 700;
 }
 .contact-title
@@ -455,7 +467,7 @@ a#mobile_menu {
     font-weight: 700;
 }
 #tariffs .service-item:hover .service-icon {
-  background: #39c8e2;
+  background: #5ABFE3;
   color: #ffffff;
   -webkit-transform: rotate(360deg);
   -moz-transform: rotate(360deg);
@@ -514,7 +526,7 @@ a#mobile_menu {
 
 #contact {
   color: #ffffff;
-  background: url(../images/contact-bg4.png) no-repeat top center;
+  background: url(../images/contact-bg5.png) no-repeat top center;
   background-size: cover;
   margin-top: -40px;
   padding-bottom: 100px;
@@ -548,7 +560,7 @@ a#mobile_menu {
   margin-bottom: 0.5em;
 }
 #contact ul li i {
-  color: #39c8e2;
+  color: #5ABFE3;
   margin-right: 10px;
 }
 #contact input[type=text],
@@ -563,7 +575,7 @@ a#mobile_menu {
 #contact input[type=text]:focus,
 #contact input[type=email]:focus,
 #contact textarea:focus {
-  border-color: #39c8e2;
+  border-color: #5ABFE3;
 }
 #contact textarea {
   padding: 15px;
@@ -580,7 +592,7 @@ a#mobile_menu {
   color: #ffffff;
   position: relative;
   z-index: 7;
-  margin-top: -55px;
+  margin-top: -57px;
   padding: 30px 0;
 }
 .site-footer p {
@@ -626,7 +638,7 @@ a#mobile_menu {
   }
   .top-c {
   	background-image: none;
-    background-color: #39c8e2;
+    background-color: #5ABFE3;
 	background-position: top;
 	height: auto;
     padding-bottom: 60px;
@@ -642,7 +654,7 @@ a#mobile_menu {
     background-color: #ececec;	*/
     margin-top: 0;
 	padding-top: 100px;
-    padding-bottom: 0;
+    padding-bottom: 80px;
   }
   #tariffs .service-item {
     margin-bottom: 60px;
@@ -650,7 +662,7 @@ a#mobile_menu {
   #products {
     margin-top: 0;
 /*	background-image: none;
-    background-color: #39c8e2;	*/
+    background-color: #5ABFE3;	*/
     padding-bottom: 60px;
     padding-top: 100px;
   }
@@ -679,7 +691,7 @@ a#mobile_menu {
   .site-footer {
 /*  background-image: none; 	*/
     background-color: #111a1f;
-    margin-top: 0;
+    margin-top: -59px;
     padding: 15px 0;
   }
 }
@@ -702,7 +714,26 @@ a#mobile_menu {
     display: inline-block;
     margin-right: 6px;
   }
+  #contact .contact-title {
+      padding-top: 20px;
+  }
 }
 /* ==========================================================================
    Media Queries
    ========================================================================== */
+
+#contact p {
+    color: #c5c5c5;
+    font-weight: 500;
+}
+#contact h4 {
+    font-weight: 500;
+    font-size: 24px;
+    color: #f5f5f5;
+}
+#contact i {
+    color: #26B0D1;
+}
+.copyright{
+    color: #959595;
+}
